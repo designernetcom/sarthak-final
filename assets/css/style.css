@@ -10964,7 +10964,7 @@ body.sal-disabled [data-sal|=flip] {
   gap: 25px;
 }
 .header-one.header--transparent {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   z-index: 100;
 }
@@ -11568,7 +11568,7 @@ header.header-full-width.header--sticky.sticky {
   padding: 15px 0;
 }
 .tmp-popup-mobile-menu .header-top .logo a img {
-  max-height: 45px;
+  max-height: 95px;
 }
 .tmp-popup-mobile-menu .header-top .close-menu .close-button {
   background: var(--color-secondary);
@@ -14838,6 +14838,7 @@ Section Head
 }
 .section-head .section-sub-title span.subtitle {
   font-family: var(--font-secondary);
+  color: #F26636 !important;
 }
 .section-head .title {
   color: var(--color-heading);
@@ -17251,7 +17252,7 @@ section.clients-testimonial-area {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tmp-banner-one-area {
@@ -17646,7 +17647,7 @@ section.clients-testimonial-area {
   }
 }
 .banner-one-main-wrapper .inner .title span {
-  color: var(--color-primary);
+  color: #F26536;
 }
 .banner-one-main-wrapper .inner .disc {
   color: var(--color-gray);
@@ -20493,7 +20494,7 @@ section.clients-testimonial-area {
 }
 
 .breadcrumb-area {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 70px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -21135,7 +21136,7 @@ body.loaded {
   margin-top: 6px;
 }
 .experiences-wrapper .experiences-wrap-left-content .experience-content .ex-para {
-  color: var(--color-gray);
+  color: white;
   font-family: var(--font-secondary);
   font-size: 16px;
   font-weight: 400;
